@@ -56,6 +56,10 @@ nav a.active {
 .hero {
   text-align: center;
   padding-top: 106px;
+  padding-bottom: 169px;
+  background-image: url("images/hero-ellipse.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 .hero h1 {
   font-size: 48px;
@@ -542,7 +546,7 @@ footer {
   color: #112232;
 }
 .footer-bottom a {
-  color:#112232;
+  color: #112232;
 }
 .company {
   grid-row: span 2;
