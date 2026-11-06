@@ -436,6 +436,7 @@ nav a.active {
   border: #3284ff 1px solid;
   padding: 0px 24px;
   width: 202px;
+  background-color: #ffffff;
 }
 .faqs {
   padding-top: 43px;
@@ -631,6 +632,10 @@ footer {
     gap: 48px;
     padding: 48px 16px;
     margin-left: 0;
+  }
+  .features-header h2 {
+    font-size: 32px;
+    line-height: 40px;
   }
   .feature-cards {
     grid-template-columns: 1fr;
