@@ -438,10 +438,12 @@ nav a.active {
   width: 202px;
 }
 .faqs {
-  width: 792px;
-  margin: 0 auto;
   padding-top: 43px;
   padding-bottom: 155px;
+  background-image: url("images/FAQs.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 1300px;
 }
 .faqs .section-title {
   width: fit-content;
@@ -453,6 +455,8 @@ nav a.active {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  max-width: 792px;
+  margin: 0 auto;
 }
 .faq-item {
   padding-bottom: 16px;
