@@ -334,7 +334,7 @@ nav a.active {
   margin-top: 68px;
 }
 .btn-outlined {
- padding: 12px 24px;
+ padding: 13px 24px;
  border: #0065fe 1px solid;
   background-color: #ffffff;
   color: #0065fe;
@@ -342,5 +342,7 @@ nav a.active {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
- 
+}
+.pricing-cta .btn {
+  padding: 14px 24px;
 }
