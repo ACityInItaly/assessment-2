@@ -133,8 +133,8 @@ nav a.active {
   position: relative;
   margin: 0 auto;
   margin-top: 80px;
- max-width: 768px;
- left: 98px;
+  max-width: 768px;
+  left: 98px;
 }
 .hero .hero-caption {
   font-size: 16px;
@@ -519,9 +519,12 @@ footer {
   padding: 95px 0px 0px 203px;
   height: 561px;
   position: relative;
-  background-image: url("images/footer-bg-left.png"), url("images/footer-bg-right.png");
+  background-image:
+    url("images/footer-bg-left.png"), url("images/footer-bg-right.png");
   background-repeat: no-repeat;
-  background-position: left top 20px, right top 203px;
+  background-position:
+    left top 20px,
+    right top 203px;
 }
 .footer-brand {
   display: flex;
@@ -556,7 +559,7 @@ footer {
 }
 .footer-column a {
   font-size: 16px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 24px;
   color: #112232;
 }
@@ -574,4 +577,141 @@ footer {
 }
 .company {
   grid-row: span 2;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 16px;
+  }
+  nav,
+  .login {
+    display: none;
+  }
+  .hero {
+    padding-top: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .hero h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .highlight img {
+    left: 50px;
+    width: 116px;
+    bottom: -12px;
+  }
+  .highlight {
+    display: inline-block;
+  }
+  .hero-card {
+    left: 0;
+  }
+  .hero .hero-link {
+    padding: 24px 16px;
+  }
+  .hero-link img {
+    max-width: 100%;
+  }
+  .stats {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 48px 16px;
+  }
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .hero-caption br {
+    display: none;
+  }
+  .features {
+    flex-direction: column;
+    gap: 48px;
+    padding: 48px 16px;
+    margin-left: 0;
+  }
+  .feature-cards {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .pricing {
+    padding: 0 16px;
+  }
+  .pricing .section-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .pricing-cards {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .pricing-card {
+    width: 100%;
+    max-width: 379px;
+    height: auto;
+    padding: 32px 24px;
+    margin: 0;
+  }
+  .featured {
+    width: 100%;
+    max-width: 379px;
+    height: auto;
+    padding: 32px 24px;
+    margin: 0;
+  }
+  .shorten {
+    height: auto;
+    padding: 48px 16px;
+  }
+  .shorten-form {
+    width: 100%;
+    max-width: 476px;
+    padding: 24px;
+  }
+  .shorten-form select {
+    width: 100%;
+  }
+  .form-row {
+    flex-direction: column;
+  }
+  .alias {
+    width: 100%;
+  }
+  .faqs {
+    min-height: 0;
+    padding: 43px 16px 48px;
+  }
+  .faq-question h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .cta {
+    height: auto;
+    padding: 64px 16px;
+    text-align: center;
+  }
+  .cta h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  footer {
+    flex-direction: column;
+    gap: 40px;
+    padding: 48px 16px;
+    height: auto;
+  }
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .company {
+    grid-row: auto;
+  }
+  .footer-column {
+    padding: 0;
+  }
+  .footer-bottom {
+    position: static;
+  }
 }
