@@ -706,6 +706,7 @@ footer {
     gap: 40px;
     padding: 48px 16px;
     height: auto;
+    background-position: left bottom, right bottom;
   }
   .footer-links {
     grid-template-columns: repeat(2, 1fr);
