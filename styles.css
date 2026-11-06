@@ -245,7 +245,7 @@ nav a.active {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 0px;
   margin-top: 68px;
 }
 .pricing-card {
@@ -308,6 +308,9 @@ nav a.active {
   border: none;
   background-color: #1e3448;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  margin-left: -40px;
+  margin-right: -40px;
+  position: relative;
 }
 .featured .plan-name {
   color: #ffffff;
