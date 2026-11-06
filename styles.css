@@ -519,6 +519,9 @@ footer {
   padding: 95px 0px 0px 203px;
   height: 561px;
   position: relative;
+  background-image: url("images/footer-bg-left.png"), url("images/footer-bg-right.png");
+  background-repeat: no-repeat;
+  background-position: left top 20px, right top 203px;
 }
 .footer-brand {
   display: flex;
