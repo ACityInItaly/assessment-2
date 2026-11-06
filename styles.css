@@ -380,6 +380,7 @@ nav a.active {
 }
 .shorten-form button {
   margin-top: 24px;
+  border: none;
 }
 .shorten-form p {
   margin-top: 12px;
@@ -419,13 +420,13 @@ nav a.active {
   width: 792px;
   margin: 0 auto;
   padding-top: 43px;
+  padding-bottom: 155px;
 }
 .faqs .section-title {
   width: fit-content;
   margin: 0 auto;
   margin-bottom: 64px;
   font-size: 40px;
-  font-weight: 700px;
 }
 .faq-list {
   display: flex;
@@ -446,7 +447,7 @@ nav a.active {
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
-  color:#141414
+  color: #141414;
 }
 .faq-question img {
   width: 24px;
@@ -457,6 +458,32 @@ nav a.active {
   font-size: 16px;
   font-weight: 500;
   line-height: 32px;
-  color:#141414;
+  color: #141414;
   margin-top: 16px;
+}
+.cta {
+  background-image:
+    url("images/cta-wave-left.svg"), url("images/cta-wave-right.svg");
+  background-repeat: no-repeat;
+  background-position:
+    left top,
+    right bottom;
+  background-color: #1e3448;
+  height: 299px;
+  padding-top: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.cta h2 {
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 48px;
+  height: 57px;
+}
+.cta-btn {
+  width: 200px;
+  padding: 14px 24px;
+  text-align: center;
 }
