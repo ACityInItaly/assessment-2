@@ -6,6 +6,10 @@
 
 body {
   font-family: Urbanist, sans-serif;
+  background-image: url("images/hero-aurora.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 1024px;
 }
 input,
 select,
